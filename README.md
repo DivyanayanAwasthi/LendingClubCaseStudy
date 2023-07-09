@@ -1,55 +1,49 @@
-# Lending Club Case Strudy
-> Case study to identfy if a loan can be given or not.
-
+# Project Name: Lending Club Case Study
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Conclusions](#conclusions)
+- [Acknowledgements](#acknowledgements)
+
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Project Background
+
+> The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc. and With the help of loan, consumer attributes and loan attributes influence the tendency of default.
+
+The lending club company can clearly understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default. Lending company can utilize this knowledge for its portfolio and risk assessment. 
+
+
+### Project Statement
+
+> Analysing the pattern of loan defaulters,the knowledge gained could be used by the Financial instuation in future risk assesment .
+
+### Data Set
+
+> The data is a CSV which contains information about past loan applicants .
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Major Driving factor which can be used to predict the chance of defaulting and avoiding Credit Loss:
+  1. DTI
+  2. Loan status
+  3. Annual Income
+  4. Purpose
+  5. Grades
+  6. Credit line used
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Pandas 
+- NumPy 
+- Seaborn 
+- MatplotLib 
+- Missingno
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-Links : 
-https://www.saedsayad.com/data_mining_map.htm
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+This project was done as part of Case study for UpGrad IITB Programme on Artifical Inteligince and Machine Learning.
